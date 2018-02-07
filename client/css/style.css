@@ -1,0 +1,104 @@
+@media screen and (max-width: 480px) {
+    #content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+
+body{
+    background: green;
+    width:100%;
+    height:100%;
+}
+
+html{
+    color:white;
+}
+
+.container {
+width:100%;
+height:100%;
+  }
+  
+  .header {
+   width:96%;
+   height:80PX;
+   background: black;
+  }
+  
+  #sidebar {
+    background: black;
+    position: absolute;
+    width:20%;
+    height:auto;
+    top:143px;
+  }
+  
+  #content {
+    position: absolute;
+    width:75%;
+    height:auto;;
+    top:143px;
+    left:22%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    color: #444;
+    grid-gap: 1%;
+ 
+  }
+  
+  .section{
+      position: absolute;
+      top:93px;
+    width:96%;
+    height:40PX;
+    background: black;
+z-index: 1;
+  }
+
+  h1{
+      margin: 0;
+      color:white;
+  }
+  
+h3{
+    color:white;
+}
+label{
+    color:red;
+}
+input{
+    margin-top: 1%;
+    width:50%;
+}
+
+.grid{
+    position: relative;
+    border-radius: 5px;
+    padding: 5%;
+    font-size: 100%;
+    text-shadow: 2px 2px 4px gray;
+    box-shadow: 2px 2px 5px gray;
+    height:80%;
+}
+
+
+img{
+    postion:relative;
+    width:60%;
+    heigth:30%;
+}
+.aref{
+    color:white;
+}
+span{
+    color:white;
+}
+button{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
